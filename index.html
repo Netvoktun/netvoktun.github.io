@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-	<title>Github test</title>
-	<script type="text/javascript" src="assets/script.js"></script>
+  <meta charset="UTF-8">
+  <title>CodePen - Morphing shapes with KUTE.js</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-	<div>Ok, þetta er hrikalega töff... Við getum notað GITHUB sem hýsingu. Og beint léninu á static skrár sem eru inná GITHUB repo.. Einfalt og þæginlegt.</div>
-	<div>Og javascriptur virka auðvitað líka.</div>
-	<div>Spurning hvað er hægt að gera meira í þessu :-)</div>
-	<br>
-	<div>Sennilega hægt að búa til einhvern bakenda sem GIT commit'ar inní REPO :-)</div>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="heart-wrap">
+    <svg class="heart" id="heart" viewBox="0 0 1920 3000" xmlns="http://www.w3.org/2000/svg">
+      <path
+        id="heart-path-3"
+        transform="translate(974.58,767.88) rotate(-400) scale(1.100)"></path>
+      <path
+        id="heart-path-2"
+        transform="translate(932.84,695.15) rotate(-400) scale(1.001)"></path>
+      <path
+        id="heart-path-1"
+        transform="translate(888.72,629.18) rotate(-400) scale(0.001)"></path>
+    </svg>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/kute.js/1.6.2/kute.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/kute.js/1.6.2/kute-svg.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
